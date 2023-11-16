@@ -1,4 +1,4 @@
-##Booker.io: Saikalyan Labhishetty
+#Booker.io: Saikalyan Labhishetty
 
 I have created this app using web development and react.js.
 The features I've used in this project are react-elastic-carousel and typewriter for the main page. used forms for both the sign-up page and the booking page.
