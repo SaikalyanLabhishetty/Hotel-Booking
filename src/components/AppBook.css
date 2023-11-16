@@ -1,0 +1,118 @@
+.your-form {
+    color: white;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    gap: 1rem;
+  }
+  
+  .input-form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color:rgb(118, 65, 0);
+    height: 3.5rem;
+    width: 78rem;
+    border-radius: 5px;
+  }
+  .your-form h3{
+    color: white;
+  }
+  
+  .input-form input {
+    color: rgb(255, 255, 255);
+    margin: 2px;
+    border: 1px solid rgb(92, 92, 92);
+    border-radius: 5px;
+    height: 3rem;
+    width: 20rem;
+    background-color: rgb(0, 0, 0);
+  }
+  .input-form select {
+    color: rgb(255, 255, 255);
+    margin: 2px;
+    border: 1px solid rgb(92, 92, 92);
+    border-radius: 5px;
+    height: 3rem;
+    width: 20rem;
+    background-color: rgb(0, 0, 0);
+  }
+  input[type="search"]{
+    width: 25rem;
+  }
+  label {
+    width: 17%;
+    height: 3rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .input-form button {
+    color: white;
+    margin: 10px;
+    border: 1px solid rgb(92, 92, 92);
+    border-radius: 5px;
+    background-color: #024c9b;
+    cursor: pointer;
+    width: 30%;
+    height: 2.8rem;
+  }
+
+  .input-form button:hover{
+    background-color: #00244a;
+  }
+  
+  @media (max-width:768px){
+    .input-form {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      background-color:rgb(118, 65, 0);
+      height: 3.5rem;
+      width: 28rem;
+      border-radius: 5px;
+    }
+    .input-form input {
+      color: rgb(255, 255, 255);
+      margin: 2px;
+      border: 1px solid rgb(92, 92, 92);
+      border-radius: 5px;
+      height: 3rem;
+      width: 10rem;
+      background-color: rgb(0, 0, 0);
+    }
+    .input-form select {
+      color: rgb(255, 255, 255);
+      margin: 2px;
+      border: 1px solid rgb(92, 92, 92);
+      border-radius: 5px;
+      height: 3rem;
+      width: 15rem;
+      background-color: rgb(0, 0, 0);
+    }
+    input[type="search"]{
+      width: 15rem;
+    }
+    label {
+      width: 17%;
+      height: 3rem;
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      font-size: 0.5rem;
+    }
+    
+    .input-form button {
+      color: white;
+      margin: 10px;
+      border: 1px solid rgb(92, 92, 92);
+      border-radius: 5px;
+      background-color: #024c9b;
+      cursor: pointer;
+      width: 30%;
+      height: 2.8rem;
+    }
+  
+  }

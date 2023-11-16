@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Unbounded:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Train+One&display=swap');
+
+/* Appheader.css */
+.header {
+    height: 5rem;
+    width: 100%;
+    background-color: #0d1e2e;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.296);
+    z-index: 2;
+  }
+  
+  .Logo {
+    background-color: #0d1e2e;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+  }
+  
+  .Logo > p {
+    font-size: 2rem;
+    background-color: #0d1e2e;
+    align-items: center;
+    color: white;
+    font-family: "Train one";
+  }
+  
+  .list {
+    color: white;
+    background-color: #0d1e2e;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 4rem;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .list > li {
+    background-color: #0d1e2e;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    font-size: 1.5rem;
+  }
+  
+  .list > li > img {
+    height: 4rem;
+  }
+  
+  .sidebar {
+    width: 16rem;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: -16rem;
+    background-color: rgb(0, 0, 0);
+    overflow-y: auto;
+    transition: 0.5s;
+    z-index: 2;
+  }
+  
+  .back {
+    cursor: pointer;
+    color: white;
+    margin-top: 2rem;
+  }
+  
+  .menu-icon{
+    color: white;
+    display: none;
+  }
+  
+  @media (max-width: 768px) {
+    .list {
+      display: none;
+    }
+  
+    .menu-icon {
+      display: block;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      background-color: #0d1e2e;
+
+    }
+  
+    .menu-icon:hover {
+      color: rgb(113, 113, 113);
+    }
+  
+    .sidebar {
+      left: 0;
+    }
+  
+    .back:hover {
+      color: gray;
+    }
+    .list-2{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        font-size: 1.5rem;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 100;
+      }
+  }
+  

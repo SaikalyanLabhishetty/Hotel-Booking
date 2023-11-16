@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Faster+One&display=swap');
+.section-1{
+    height: 40.25rem;
+    background-image: url(https://i.imgur.com/vKX2T7P.gif);
+    background-size: 100% 100%; 
+    color: white;
+    font-family: 'Unbounded', sans-serif;
+}
+.section-1 > p {
+    padding-top: 18rem;
+    padding-left: 3rem;
+    width: 30rem;
+    font-size: 2rem;
+    background-color: transparent;
+}
+.section-1 > span {
+    color:#C0C0C0;
+    font-size:2rem;
+    background:transparent
+}
+.slider > h1{
+    color: white;
+    text-align: center;
+    margin-top: 2rem;
+}
+.slider-2 > h1 {
+    color: white;
+    text-align: center;
+    margin-top: 2rem;
+}
+.wrapper-class img{
+    height: 10rem;
+    margin: 3rem 3rem ;
+    width: 100%;
+}
+.wrapper-class-1 > img {
+    height: 15rem;
+    margin: 3rem 3rem ;
+    width: 25rem;   
+}
+
+
+@media (max-width:768px){
+    .section-1{
+        width: 30rem;
+    }
+    .section-1 > p{
+        font-size: 1rem;
+        padding-top: 2rem;
+        padding-left: 1rem;
+    }
+    .section-1 > span {
+        font-size: 20px;
+    }
+    .slider > h1{
+        font-size: 1.5rem;
+    }
+}
